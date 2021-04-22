@@ -15,6 +15,18 @@ class Machine(var type: String) {
             println("Set foi chamado")
             field = value
         }
+
+    fun turnOn() {
+        println("Máquina ligada")
+    }
+
+    fun process() {
+        println("Máquina processando")
+    }
+
+    fun turnOff() {
+        println("Máquina desligada")
+    }
 }
 
 fun main() {
@@ -22,4 +34,18 @@ fun main() {
     var m = Machine("xpto")
     println(m.cores)
     m.cores = 10
+
+    // with em Kotlin nos permite acessar métodos da mesma classe com a mesma variável de forma mais prática
+    // como seria sem with
+    println("Sem with: ")
+    m.turnOn()
+    m.process()
+    m.turnOff()
+    // utilizando o with não é necessáio indicar a variável toda vez
+    println("Com with: ")
+    with(m) {
+        turnOn()
+        process()
+        turnOff()
+    }
 }
