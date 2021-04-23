@@ -1,3 +1,4 @@
+package topics
 // Kotlin é uma linguagem null safety, podemos definir quais variáveis podem ser nulas
 // temos o operador Elvis ?: e Safe ?
 

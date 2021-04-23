@@ -1,3 +1,4 @@
+package topics
 // além do for temos o while e também o do while para estrutura de repetições (loop)
 // while é mais utilizado para quando não sabemos qual é o range a ser percorrido
 

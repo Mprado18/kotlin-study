@@ -1,3 +1,4 @@
+package topics
 // Podemos ter funções com infinitos parametros
 // Com o vararg isso é possível, não precisando colocar todos os parametros de forma manual
 
@@ -30,6 +31,6 @@ fun main() {
     address("Rua Brasil", "Curitiba", "Paraná", "123456789", 185)
 
     // exemplo colocando muitos argumentos para os parametros
-    // calcAverage(1f,5f,6f,10f,10.5f,55f,65.6f,89.89f,12f,5584f)
+    // topics.calcAverage(1f,5f,6f,10f,10.5f,55f,65.6f,89.89f,12f,5584f)
     calcAverage(5.5f,10f,8.8f,9.3f) // dessa forma se precisar adicionar mais valores está ok
 }

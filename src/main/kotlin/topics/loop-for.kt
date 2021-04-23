@@ -1,3 +1,5 @@
+package topics
+
 // for é utilizado para realizar estrutura de repetição e não precisar repetir o código infinitas vezes
 
 fun main() {

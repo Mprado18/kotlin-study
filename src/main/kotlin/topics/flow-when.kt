@@ -1,3 +1,5 @@
+package topics
+
 // when é um fluxo de controle assim como o if-else, onde podemos colocar condicionais
 // segue a mesma lógica de switch e case das outras linguagens
 

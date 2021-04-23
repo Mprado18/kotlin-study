@@ -1,3 +1,5 @@
+package topics
+
 // não é possível declarar os parametros sem o tipo de dado
 fun calculate(a: Int, b: Int, c: Int): Int {
     var total = (a + b) * 2

@@ -1,3 +1,4 @@
+package topics
 // Em Kotlin já temos algumas funções prontas para o tipo de dado String
 
 fun main() {

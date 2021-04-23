@@ -1,3 +1,5 @@
+package topics
+
 import java.lang.NumberFormatException
 
 // As excções são erros que acabam quebrando a execução dos programas
