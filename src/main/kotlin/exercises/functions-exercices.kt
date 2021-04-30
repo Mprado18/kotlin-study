@@ -1,4 +1,4 @@
-package exercices
+package exercises
 
 /*
 1. Crie uma função que recebe uma String e retorne a quantidade de caracteres.

@@ -1,4 +1,4 @@
-package exercices
+package exercises
 
 /*
 1. Crie uma função que recebe dois valores inteiros e imprima o maior deles. Considere

@@ -1,4 +1,4 @@
-package exercices
+package exercises
 
 /*
 1. Imprima os números pares de 100 a 200.
