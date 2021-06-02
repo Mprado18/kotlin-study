@@ -19,4 +19,9 @@ fun main() {
 
     val p1: Person = Person("Marcos")
     p1 isName "Marcos"
+
+    //com infix functions podemos também fazer o uso do Pair de forma mais concisa com o infix to
+    val callingCodesMap: Map<Int, String> = mapOf(1 to "number one", 2 to "number two")
+    //da forma abaixo estamos utilizando o construtor Pair para criar as chaves e valores
+    val callingCodesPairMap: Map<Int, String> = mapOf(Pair(1, "number one"), Pair(2, "number two"))
 }
